@@ -1,3 +1,6 @@
 [submodule "newsfeed_server"]
 	path = newsfeed_server
 	url = git@github.com:Johnny2311/newsfeed_server.git
+[submodule "newsfeed_client"]
+	path = newsfeed_client
+	url = git@github.com:Johnny2311/newsfeed_client.git
