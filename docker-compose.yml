@@ -1,6 +1,14 @@
 version: '3.8'
 
 services:
+  client:
+    build:
+      context: ./newsfeed_client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./newsfeed_client:/app
+
   server:
     build:
       context: ./newsfeed_server
